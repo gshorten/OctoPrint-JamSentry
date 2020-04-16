@@ -1,8 +1,8 @@
 # coding=utf-8
-from __future__ import absolute_import
+
 
 import octoprint.plugin  # @UnresolvedImport
-from BaseHTTPServer import BaseHTTPRequestHandler,HTTPServer  # @UnresolvedImport
+from http.server import BaseHTTPRequestHandler,HTTPServer  # @UnresolvedImport
 import json
 import threading
 import time
